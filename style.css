@@ -1,0 +1,26 @@
+ul{
+    list-style: none;
+}
+.nav{
+    color: white;
+    padding: 0 100px 100px 100px;
+    background-color: rgb(72, 76, 76);
+ 
+}
+.top-nav-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-nav{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bottom-nav > #awesome{
+width: 30%;
+}
