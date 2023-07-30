@@ -1,11 +1,11 @@
+
 ul{
     list-style: none;
 }
 .nav{
     color: white;
     padding: 0 100px 50px 100px;
-    background-color: rgb(72, 76, 76);
- 
+    background-color: rgb(22, 30, 59);
 }
 .top-nav-main{
     display: flex;
@@ -16,6 +16,8 @@ ul{
     display: flex;
     flex-direction: row;
     gap: 15px;
+    justify-content: center;
+    align-self: center;
 }
 .bottom-nav{
     display: flex;
@@ -27,7 +29,7 @@ ul{
 width: 400px;
 }
 
-h2{
+.someTitle{
     text-align: center;
 }
 
@@ -46,7 +48,6 @@ h2{
 .rectangle {
     height: 100%;
     width: 200px;
-    border: 2px solid black;
     background-color: #ffffff;
   }
 
@@ -57,7 +58,8 @@ h2{
   .square {
     height: 100px;
     width: 100px;
-    border: 2px solid black;
+    border: 2px solid rgb(28, 4, 244);
+    border-radius: 10px;
     background-color: #ffffff;
   }
 
@@ -66,21 +68,47 @@ h2{
     color: rgb(0, 0, 0);
     border: 10%;
     padding: 15px;
-   
+    align-items: flex-end;
   }
 
-  .inspiring  > p{
-    padding: 0 15% 0 15%;
-    
+  .inspiring > p {
+    width: 50%;
+    margin: auto;
   }
 
-  .rectangle2 {
-    margin: 30px 25% 0  ;
+  .callto {
+    margin: 50px auto;
     display: flex;
-    justify-content: center;
+    height: 50%;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #367af0;
+    justify-content: space-around;
+  }
+
+  .callto > li:nth-child(2) {
+    align-self: center;
+  }
+
+
+  .rectangle2 > li {
+    flex-direction: row;
+  }
+  .rectangle2 > button {
+    width: 50%;
+  }
+
+  .copyright {
+    width: auto;
+    height: 70px;
+    background-color: rgb(22, 30, 59);
+    display: flex;  
+    justify-content: center;  
     align-items: center;
-    height: 100%;
-    width: 800px;
-    border: 2px solid black;
-    background-color: #1a07f0;
+  }
+  
+.copyright .cacat {
+    color: #fff;
+    padding: 12px;
+    display: inline-block;
   }
